@@ -194,7 +194,7 @@ hr.light {
 header.masthead {
 	padding-top: 10rem;
 	padding-bottom: calc(10rem - 56px);
-	background-image: url(../img/header.jpg);
+	background-image: url(../../assets/images/general/header.jpg);
 	background-position: center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -1019,7 +1019,7 @@ h2.featured {
 }
 
 .box-img-thumb {
-	background-image: url(../images/icon/pic-ico.png);
+	background-image: url(../../assets/images/icon/pic-ico.png);
 	background-repeat: no-repeat;
 	background-position: center;
 }
@@ -1110,7 +1110,7 @@ h2.featured {
 	width: 100%;
 	position: relative;
 	overflow: hidden;
-	background-image: url("");
+	/* background-image: url(""); */
 	/* background-color: white; */
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -1155,16 +1155,14 @@ i.material-icons {
 	animation: ripple 0.4s linear;
 }
 
-@
--webkit-keyframes ripple { 100% {
+@-webkit-keyframes ripple { 100% {
 	opacity: 0;
 	-webkit-transform: scale(2.5);
 	transform: scale(2.5);
 }
 
 }
-@
-keyframes ripple { 100% {
+@keyframes ripple { 100% {
 	opacity: 0;
 	-webkit-transform: scale(2.5);
 	transform: scale(2.5);
@@ -1488,7 +1486,7 @@ footer {
 }
 
 .bg {
-	background-image: url("../img/body/body.jpg");
+	background-image: url("../../assets/images/body/body.jpg");
 	height: 100%;
 	width: 100%;
 	background-position: center;
@@ -1505,7 +1503,7 @@ footer {
 }
 
 .bg2 {
-	background-image: url("../img/body/body2.jpg");
+	background-image: url("../../assets/images/body/body2.jpg");
 	height: 590px;
 	width: 100%;
 	background-position: center;
@@ -1515,7 +1513,7 @@ footer {
 }
 
 .bg3 {
-	background-image: url("../img/body/body2.jpg");
+	background-image: url("../../assets/images/body/body2.jpg");
 	height: 470px;
 	width: 100%;
 	background-position: center;
@@ -1799,7 +1797,7 @@ textarea.input100 {
 
 header.blackground-pawner-index {
 	padding-top: 55rem;
-	background-image: url(../img/Manual.jpg);
+	background-image: url(../../assets/images/general/Manual.jpg);
 	background-position: center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
