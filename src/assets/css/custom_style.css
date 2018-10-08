@@ -139,7 +139,7 @@ li {
 }
 
 .border-left-1 {
-	boder-left: 1px solid #ccc;
+	border-left: 1px solid #ccc;
 }
 
 .text-center {
@@ -1050,7 +1050,7 @@ h2.featured {
 }
 
 .upload-options:hover {
-	/* background-color: #7fb1b3; */
+	background-color: #7fb1b3;
 	
 }
 
