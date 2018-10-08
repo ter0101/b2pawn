@@ -1,11 +1,13 @@
 # B2pawn
 
-# after clone
+# quick start
 command
 --> npm install
 --> npm install -g @angular/cli
 --> npm install bootstrap@4 --save
 --> npm install jquery --save
+--> run server => ng serv 
+
 **note check version
 --> ng --version
 --> npm -version
