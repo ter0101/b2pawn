@@ -10,6 +10,26 @@ import { PawnshopComponent } from './pawnshop/pawnshop.component';
 import { LoginComponent } from './auth/login/login.component';
 import { RegisterComponent } from './auth/register/register.component';
 
+import {RouterModule, Routes} from '@angular/router';
+import { FormsModule } from "@angular/forms";
+
+import { environment } from "../environments/environment";
+import { AngularFireModule } from "angularfire2";
+import { AngularFirestoreModule } from "angularfire2/firestore";
+
+const routes: Routes = [
+  {
+    path:'', component: IndexComponent
+  },
+  { 
+    path: 'login', component: LoginComponent 
+  },
+  { 
+    path: 'register', component: RegisterComponent 
+  }  
+];
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +42,11 @@ import { RegisterComponent } from './auth/register/register.component';
     RegisterComponent  
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule.forRoot(routes),
+    FormsModule,
+    AngularFireModule.initializeApp(environment.firebase, 'angularfs'),
+    AngularFirestoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]
