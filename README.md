@@ -7,6 +7,7 @@ command
 --> npm install bootstrap@4 --save
 --> npm install jquery --save
 --> npm install firebase  angularfire2 --save
+--> npm install --save rxjs-compat
 **note check version
 --> ng --version
 --> npm -version
