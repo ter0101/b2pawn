@@ -4,7 +4,8 @@
 command
 --> npm install
 --> npm install -g @angular/cli
---> 
+--> npm install bootstrap@4 --save
+--> npm install jquery --save
 **note check version
 --> ng --version
 --> npm -version
