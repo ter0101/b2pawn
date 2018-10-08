@@ -16,6 +16,7 @@ import { FormsModule } from "@angular/forms";
 import { environment } from "../environments/environment";
 import { AngularFireModule } from "angularfire2";
 import { AngularFirestoreModule } from "angularfire2/firestore";
+import { PostComponent } from './pawner/post/post.component';
 
 const routes: Routes = [
   {
@@ -39,7 +40,8 @@ const routes: Routes = [
     PawnerComponent,
     PawnshopComponent,
     LoginComponent,
-    RegisterComponent  
+    RegisterComponent,
+    PostComponent  
   ],
   imports: [
     BrowserModule,
