@@ -1,5 +1,15 @@
 # B2pawn
 
+# after clone
+command
+--> npm install
+--> npm install -g @angular/cli
+--> 
+**note check version
+--> ng --version
+--> npm -version
+--> node -v
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.5.
 
 ## Development server
