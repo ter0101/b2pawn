@@ -9,6 +9,7 @@ command
 --> run server => ng serve 
 --> npm install firebase  angularfire2 --save
 
+--> npm install --save rxjs-compat
 **note check version
 --> ng --version
 --> npm -version

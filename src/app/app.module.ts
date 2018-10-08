@@ -12,10 +12,14 @@ import { RegisterComponent } from './auth/register/register.component';
 
 import {RouterModule, Routes} from '@angular/router';
 import { FormsModule } from "@angular/forms";
+import { AngularFireAuthModule } from 'angularfire2/auth';
 
 import { environment } from "../environments/environment";
 import { AngularFireModule } from "angularfire2";
 import { AngularFirestoreModule } from "angularfire2/firestore";
+import { PostComponent } from './pawner/post/post.component';
+
+import { PawnerRegisterService } from "./service/pawner/register.service";
 
 const routes: Routes = [
   {
@@ -39,16 +43,18 @@ const routes: Routes = [
     PawnerComponent,
     PawnshopComponent,
     LoginComponent,
-    RegisterComponent  
+    RegisterComponent,
+    PostComponent  
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot(routes),
     FormsModule,
     AngularFireModule.initializeApp(environment.firebase, 'angularfs'),
-    AngularFirestoreModule
+    AngularFirestoreModule,
+    AngularFireAuthModule
   ],
-  providers: [],
+  providers: [PawnerRegisterService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
