@@ -7,6 +7,7 @@ command
 --> npm install bootstrap@4 --save
 --> npm install jquery --save
 --> run server => ng serve 
+--> npm install firebase  angularfire2 --save
 
 **note check version
 --> ng --version
