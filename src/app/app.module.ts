@@ -20,6 +20,7 @@ import { AngularFirestoreModule } from "angularfire2/firestore";
 import { PostComponent } from './pawner/post/post.component';
 
 import { PawnerRegisterService } from "./service/pawner/register.service";
+import { PawnerPledgeComponent } from './pawner/pawner-pledge/pawner-pledge.component';
 
 const routes: Routes = [
   {
@@ -30,6 +31,9 @@ const routes: Routes = [
   },
   { 
     path: 'register', component: RegisterComponent 
+  },
+  {
+    path: 'pawner-pledge', component: PawnerPledgeComponent
   }  
 ];
 
@@ -44,7 +48,8 @@ const routes: Routes = [
     PawnshopComponent,
     LoginComponent,
     RegisterComponent,
-    PostComponent  
+    PostComponent,
+    PawnerPledgeComponent  
   ],
   imports: [
     BrowserModule,

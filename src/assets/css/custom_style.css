@@ -1804,3 +1804,35 @@ header.blackground-pawner-index {
 	-o-background-size: cover;
 	background-size: cover
 }
+
+.icon {
+	width: 100%;
+	margin: auto;
+}
+
+.scrollbar-auto {
+	overflow: hidden;
+	height: 75%;
+}
+
+.card-icon {
+	/* margin: 16px; */
+	text-align: center;
+	width: auto;
+	height: auto;
+	padding-bottom: 16px;
+}
+
+.card-icon > a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.card-icon:hover {
+	text-align: center;
+	transition: 0.3s;
+	box-shadow: 0 0 2px 2px rgba(20, 23, 28, .1), 0 4px 1px 0 rgba(20, 23, 28, .1);
+	border: 1px solid #999999;
+	transform: scale3d(1.006, 1.006, 1);
+}
